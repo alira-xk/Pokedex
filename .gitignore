@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+*.log
+
+# Editor and OS
+.DS_Store
+.vscode/
+.idea/
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Lockfiles (optional if you prefer determinism, keep one if used)
+# yarn.lock
+# pnpm-lock.yaml
+# bun.lockb

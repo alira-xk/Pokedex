@@ -1,0 +1,5 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Pokéball">
+  <circle cx="256" cy="256" r="240" stroke="currentColor" stroke-width="32" fill="none"/>
+  <path d="M16 264h192a48 48 0 0096 0h192" stroke="currentColor" stroke-width="32" fill="none"/>
+  <circle cx="256" cy="256" r="48" stroke="currentColor" stroke-width="24" fill="none"/>
+</svg>
