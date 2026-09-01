@@ -1,40 +1,61 @@
-# Pokédex (React + Vite)
+# Pokédex
 
-A fast, accessible Pokédex built with React, Vite, Tailwind CSS, React Router, and TanStack Query.
-
-## Requirements
-- Node.js 18+ (includes npm)
-
-## Run locally
-1. Install dependencies
-   
-   ```powershell
-   npm install
-   ```
-2. Start the dev server (will open in your browser)
-   
-   ```powershell
-   npm run dev -- --open
-   ```
-
-- Local URL: http://localhost:5173
-
-## Build for production
-```powershell
-npm run build; npm run preview -- --open
-```
+A responsive Pokémon browser built with React, Vite, TypeScript, Tailwind CSS, React Router, and TanStack Query.
 
 ## Features
-- Pokémon list with search and paging
-- Pokémon details with stats, types, and abilities
-- Favorites saved locally
-- Dark/light theme toggle
+
+- Pokémon list with search and pagination
+- Detailed Pokémon pages with stats, types, and abilities
+- Favorites stored locally
+- Dark/light theme
+- Client-side routing
+- Server-state management with TanStack Query
+- Responsive UI for desktop and mobile
 
 ## Tech Stack
-- React 18, Vite 5, TypeScript
-- Tailwind CSS, React Router, TanStack Query
-- ESLint, Prettier (via dev deps)
 
-## Notes
-- Data from https://pokeapi.co
-- This is a demo app; no server-side code is required.
+- React 18
+- TypeScript
+- Vite
+- Tailwind CSS
+- React Router
+- TanStack Query
+- ESLint + Prettier
+
+## Data
+
+Pokémon data is provided by the PokéAPI.
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- npm
+
+### Installation
+
+```bash
+git clone https://github.com/alira-xk/Pokedex.git
+cd Pokedex
+npm install
+```
+
+### Development
+
+```bash
+npm run dev
+```
+
+The development server runs on `http://localhost:5173` by default.
+
+### Production Build
+
+```bash
+npm run build
+npm run preview
+```
+
+## What This Project Demonstrates
+
+This project focuses on reusable React components, API data fetching, client-side routing, local state, server-state caching, responsive UI, and TypeScript-based frontend development.
